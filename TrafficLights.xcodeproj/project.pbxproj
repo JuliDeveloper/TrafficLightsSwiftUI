@@ -11,6 +11,7 @@
 		254F059828981B340080CFB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254F059728981B340080CFB8 /* ContentView.swift */; };
 		254F059A28981B350080CFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254F059928981B350080CFB8 /* Assets.xcassets */; };
 		254F059D28981B350080CFB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254F059C28981B350080CFB8 /* Preview Assets.xcassets */; };
+		254F05A428981BA60080CFB8 /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254F05A328981BA60080CFB8 /* ColorCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		254F059728981B340080CFB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		254F059928981B350080CFB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		254F059C28981B350080CFB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		254F05A328981BA60080CFB8 /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				254F059528981B340080CFB8 /* TrafficLightsApp.swift */,
 				254F059728981B340080CFB8 /* ContentView.swift */,
+				254F05A328981BA60080CFB8 /* ColorCircleView.swift */,
 				254F059928981B350080CFB8 /* Assets.xcassets */,
 				254F059B28981B350080CFB8 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254F05A428981BA60080CFB8 /* ColorCircleView.swift in Sources */,
 				254F059828981B340080CFB8 /* ContentView.swift in Sources */,
 				254F059628981B340080CFB8 /* TrafficLightsApp.swift in Sources */,
 			);
@@ -284,7 +288,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
